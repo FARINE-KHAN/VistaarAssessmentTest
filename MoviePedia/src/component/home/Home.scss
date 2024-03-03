@@ -1,0 +1,24 @@
+.container {
+    height: 92vh;
+}
+@media (max-width: 768px) {
+    .container {
+        width: 100% !important;
+        height: auto !important;
+        .btn-outline-primary{
+            display: none;
+        }
+        .row {
+            width: 100%;
+            height: auto !important;
+            flex-direction: column;
+            .col{
+                width: 100% !important;
+                height: auto !important; 
+                img{
+                    height: 45vh !important;
+                }
+            }
+        }
+    }
+}
